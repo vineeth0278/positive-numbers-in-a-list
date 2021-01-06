@@ -1,0 +1,5 @@
+l = input("Enter your numbers(place , in between numbers):")
+list = l.split(",")
+for num in list:
+    if num>str(0):
+        print(num)
